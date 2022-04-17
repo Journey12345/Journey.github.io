@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+<section class="our-services" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <span>Our Services</span>
+                    <h2>Best Template Site</h2>
+                </div>
+            </div> 
+        </div> 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="{{ url_for('static', filename='img/service_icon_1.png') }}" alt="">
+                    </div>
+                    <h4>Map</h4>
+                    <p>We provided map for you journey this map helps you find cafe,resturants others destinations .</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="{{ url_for('static', filename='img/service_icon_2.png') }}" alt="">
+                    </div>
+                    <h4>Almost 1000 Cities</h4>
+                    <p>We provided Almost 1000 cities Inforamtion about Tourist destination etc</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-item">
+                    <div class="icon">
+                        <img src="{{ url_for('static', filename='img/service_icon_3.png') }}" alt="">
+                    </div>
+                    <h4>Booking Hotels & Flights</h4>
+                    <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+                </div>
+            </div>
+        </div>
+       
+</section>
+{% endblock %}
